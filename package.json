@@ -1,0 +1,15 @@
+{
+  "name": "guilherme801",
+  "version": "2.0.0",
+  "description": "A sua API deve responder na sua rota Health:Nome, Idade e CPF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "author": "Guilherme",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
