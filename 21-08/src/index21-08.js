@@ -52,7 +52,7 @@ class AppController {
         Nome: "Guilherme",
         Idade: "17",
         CPF: "45558053801",
-        Email: "guilherme10007@gm",
+        Email: "guilherme10007@gmail.com",
       });
     });
   }
