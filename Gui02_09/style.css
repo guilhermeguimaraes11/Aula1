@@ -1,0 +1,72 @@
+/*Estilos aplicados ao website Prototipando...*/
+
+/*Seletor Universal - seleciona todos os elementos da página e aplica estilos comuns padronizados*/
+* {
+  margin: 0; /*Remove a margem padrão de todos os elementos*/
+  padding: 0; /*Remove o padding de todos os elementos*/
+  box-sizing: border-box; /*Inclui bordas e preenchimentos no cálculo da largura e altura dos elementos*/
+} /*Fechamento do seletot universal */
+
+body {
+  font-family: Arial, sans-serif; /*Define a fonte da página como Arial, com uma alternativa de sans-serif*/
+  background-color: rgb(
+    52,
+    52,
+    119
+  ); /*Define a cor de fundo do body / corpo de html*/
+  color: rgb(
+    240,
+    240,
+    240
+  ); /*Define a cor do texto com um tom suave de branco */
+} /*Fechamento do body*/
+/*Estilo do cabeçalho*/
+header {
+  background-color: #000000; /*Cor de fundo em hexadecimal*/
+  padding: 40px;
+  text-align: center;
+} /*Fechamento do header*/
+
+header button {
+  right: 20px; /*Alinha o botão à direita, com 20 px de distância */
+  top: 20px; /*Alinha o botao ao topo, com 20px de distancia da borda superior*/
+  position: absolute;
+  background-color: #7b95f0;
+  color: rgb(240, 240, 240);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none; /*Remove a coda padrão do botao*/
+  cursor: pointer; /*Define o cursor como um ponteiro ao passar sobre o botao*/
+} /*fechamento do header button*/
+
+header h3 {
+    /*Remove a margem e o padding padrao do h3 dentro do header*/
+  margin: 0;
+  padding: 0;
+
+} /*Fechamento do header h3*/
+
+main{
+    padding: 40px;
+    text-align: center;
+}/*Fechamento do main*/
+
+main img{
+max-width: 150px; /*Define a largura máxima das imagens dentro da main como 150px*/
+
+}/*Fechamento do main img*/
+
+section{
+    margin: 20px;
+}
+
+
+/*Estilho do rodapé / footer*/
+footer {
+  background-color: #000000;
+  padding: 40px;
+  text-align: center; /*Alinha o texto do rodapé ao centro*/
+  bottom: 0; /*Alinha o rodapé abaixo da página*/
+  position: absolute; /*Posiciona o rodapé de forma absoluta em relação ao body*/
+  width: 100%; /*Define a largura do rodapé*/
+} /*Fechamento do footer*/
